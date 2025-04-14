@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+body{
+    background-color: antiquewhite;
+}
+
+
+
+nav{
+    background-color: rgb(250, 145, 7);
+    padding: 10px 7px;
+    margin: ;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    margin: 12px;
+    font-weight: 800;
+    font-size: large;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li:hover{
+    background-color: rgb(10, 10, 10);
+    opacity: 0.69;
+    color: white;
+    border-radius: 3px;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+table ,td ,tr,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 3px;
+    background-color: whitesmoke;
+}
+h1 ,h2{
+    margin: 23px;
+    text-decoration: underline;
+}
+.btn{
+    padding: 7px;
+    margin: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(3, 180, 74);
+    padding:10px;
+    font-size: 15px;
+    color:rgb(255, 230, 0);
+    border-radius: 7px;
+}
